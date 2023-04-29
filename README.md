@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ```
 
 ### Dataset Preparation
-The dataset deafult used in our code is "dataset1", if you want to train in the dataset2, please prepare the data in the following steps:
+The dataset deafult used in our code is `dataset1`, if you want to train in the dataset2, please prepare the data in the following steps:
 ```shell
 run main.py --dataset_sort=dataset2
 ```
