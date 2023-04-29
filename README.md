@@ -11,7 +11,7 @@ In this work, we propose a predictive framework, called BertNDA, which aims to p
 ### Requirements:
 All the codes are tested in the following environment:
 
-```Linux (tested on Ubuntu 18.04)```, 
+```Linux (tested on Ubuntu 18.04)```
 ```Python 3.8.16```
 ```PyTorch 1.10.1```
 ```numpy 1.23.5```
@@ -51,8 +51,8 @@ we also a website to show the predict result in user-friendly, click [online-pla
 
 ## Others:
 ### The Methods compared in our work
-- CNNMDA: A novel based on CNN-based framework for predicting the associations between miRNA and dieases. paper url:[https://pubmed.ncbi.nlm.nih.gov/30977780/](https://pubmed.ncbi.nlm.nih.gov/30977780/)
-- DEFLMDA: A model employs a novel computational approach of random forest ensemble learning to predict miRNA-disease associations, integrating autoencoders for low-dimensional feature representation. Paper url:[https://pubmed.ncbi.nlm.nih.gov/35325038/](https://pubmed.ncbi.nlm.nih.gov/35325038/)
+- _CNNMDA_: A novel based on CNN-based framework for predicting the associations between miRNA and dieases. paper url:[https://pubmed.ncbi.nlm.nih.gov/30977780/](https://pubmed.ncbi.nlm.nih.gov/30977780/)
+- _DEFLMDA_: A model employs a novel computational approach of random forest ensemble learning to predict miRNA-disease associations, integrating autoencoders for low-dimensional feature representation. Paper url:[https://pubmed.ncbi.nlm.nih.gov/35325038/](https://pubmed.ncbi.nlm.nih.gov/35325038/)
 - HGCNMDA: A model incorporates a gene layer in constructing a heterogeneous network. The model refines the feature of nodes into initial features and induction features and then learns miRNA and disease embeddings via a multi-graph convolutional network model. Paper url:[https://pubmed.ncbi.nlm.nih.gov/35776822/](https://pubmed.ncbi.nlm.nih.gov/35776822/)
 - LDAformer: A model leverages topological feature extraction and Transformer encoder. Specifically, a pivotal process is designed for extracting potential multi-hop path feature from adjacent matrices during the topological information extraction stage. Paper url:[https://pubmed.ncbi.nlm.nih.gov/36094081/](https://pubmed.ncbi.nlm.nih.gov/36094081/)
 - PADLMHOOI: A model implements high-order orthogonal iterations to predict potential associations and evaluates predictive performance through global and local leave-one-out cross-validation.Paper url:[https://pubmed.ncbi.nlm.nih.gov/31191710/](https://pubmed.ncbi.nlm.nih.gov/31191710/)
