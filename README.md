@@ -14,6 +14,11 @@ All the codes are tested in the following environment:
 ```numpy 1.23.5```
 ```Pillow 8.3.2```
 
+a. Install the dependent python libraries.
+```shell
+pip install -r requirement.txt 
+```
+
 If you have any questions, welcome to contact we at 2193612777@stu.xjtu.edu.cn!
 
 
