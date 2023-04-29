@@ -4,7 +4,7 @@ BertNDA: Predicting associations of miRNAs,lncRNAs and diseases based on Graph-B
 ![BertNDA](imgs/Method.svg)
 
 ## Introduction:
-
+In this work, we propose a predictive framework, called BertNDA, which aims to predict miRNA-lncRNA interactions related to diseases. The framework employs Laplace transform of graph structure and WL(Weisfeiler-Lehman) absolute role coding to extract global information, construct a connectionless subgraph to aggregate neighbor features, and identify local information. Moreover, an EMLP structure is adopted to obtain the multi-scale feature representation of nodes, which captures diverse information from different parts of the network. Furtherly, nodes are encoded using Transformer-encoder structure, and prediction-layer outputs the final correlation between miRNA-lncRNA and diseases. A 5-fold cross-validation further demonstrate that BertNDA outperforms the state-of-the-art method in predicting assignment. Overall, our model provides an efficient, accurate, and comprehensive tool for predicting ncRNA-disease associations, which can make a contribution in future study of disease. 
 
 ## Installation:
 
@@ -44,19 +44,19 @@ your_dataset
 ├── lnc.txt
 ├── dis.txt
 ```
-then run our code to train the model in your dataset.
+then running our 'main.py' to train the model in your datasets.
 
 ## online-platform:
 we also a website to show the predict result in user-friendly, click [online-platform](39.106.16.168:8017) for details.
 
 ## Others:
 ### The Methods compared in our work
-CNNMDA:a model based on CNN for predict the associations between miRNA and dieases. [paper_url](https://pubmed.ncbi.nlm.nih.gov/30977780/)
+- CNNMDA:a model based on CNN for predicting the associations between miRNA and dieases. paper url:[https://pubmed.ncbi.nlm.nih.gov/30977780/](https://pubmed.ncbi.nlm.nih.gov/30977780/)
+- DEFLMDA:a model employs a novel computational approach of random forest ensemble learning to predict miRNA-disease associations, integrating autoencoders for low-dimensional feature representation. Paper url:[https://pubmed.ncbi.nlm.nih.gov/35325038/](https://pubmed.ncbi.nlm.nih.gov/35325038/)
+- HGCNMDA:a model incorporates a gene layer in constructing a heterogeneous network. The model refines the feature of nodes into initial features and induction features and then learns miRNA and disease embeddings via a multi-graph convolutional network model. Paper url:[https://pubmed.ncbi.nlm.nih.gov/35776822/](https://pubmed.ncbi.nlm.nih.gov/35776822/)
+- LDAformer:a model leverages topological feature extraction and Transformer encoder. Specifically, a pivotal process is designed for extracting potential multi-hop path feature from adjacent matrices during the topological information extraction stage. Paper url:[https://pubmed.ncbi.nlm.nih.gov/36094081/](https://pubmed.ncbi.nlm.nih.gov/36094081/)
+- PADLMHOOI: a model implements high-order orthogonal iterations to predict potential associations and evaluates predictive performance through global and local leave-one-out cross-validation.Paper url:[https://pubmed.ncbi.nlm.nih.gov/31191710/](https://pubmed.ncbi.nlm.nih.gov/31191710/)
 
-
-
-
-
-If you have any questions, welcome to contact we at 2193612777@stu.xjtu.edu.cn!
+If you have any questions, welcome to contact with us at 2193612777@stu.xjtu.edu.cn!
 
 
