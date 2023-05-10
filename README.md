@@ -17,11 +17,18 @@ pip install -r requirements.txt
 ```
 ### Dataset Preparation
 The dataset deafult used in our code is `dataset1`, if you want to train in the dataset2, please download the dataset according to [README.MD](data/dataset2/README.MD) and preprare the preprocess data by the following step:
-
- python main.py --dataset_sort=dataset2
- 
- Some files will be generated in the dataset2 folder, follows as:
- 
+```
+python main.py --dataset_sort=dataset2
+```
+Some files will be generated in the dataset2 folder, follows as:
+```
+dataset2
+|—— sim_matrix.csv
+|—— negative_ij.npy
+|—— positive_ij.npy
+|—— subgraph_index.npy
+|—— WL.npy
+```
  
  
  
