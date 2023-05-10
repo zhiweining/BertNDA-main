@@ -1,5 +1,5 @@
 ## BertNDA
-BertNDA: Predicting ncRNA and disease associations based on Multi-scale feature Fusion and Graph-Bert
+BertNDA: Predicting ncRNA and disease trinary associations based on Multi-scale feature Fusion and Graph-Bert
  
 ![BertNDA](/imgs/Method.svg)
 
@@ -9,7 +9,7 @@ In this work, we propose a predictive framework, called BertNDA, which aims to p
 ## Installation
 ### Requirements
 All the codes are tested in the following environment:
-`Linux(Ubuntu 18.04)``Python 3.8.16``PyTorch 1.10.1``numpy 1.23.5``Pillow 8.3.2`
+`Linux(Ubuntu 18.04)` `Python 3.8.16` `PyTorch 1.10.1` `CUDA 11.X` `numpy 1.23.5``Pillow 8.3.2`
 Install the dependent python libraries by
 
 ```
