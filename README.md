@@ -9,7 +9,7 @@ In this work, we propose a predictive framework, called BertNDA, which aims to p
 ## Installation
 ### Requirements
 All the codes are tested in the following environment:
-`Linux(Ubuntu 18.04)` `Python 3.8.16` `PyTorch 1.10.1` `CUDA 11.X` `numpy 1.23.5``Pillow 8.3.2`
+`Linux(Ubuntu 18.04)` `Python 3.8.16` `PyTorch 1.10.1` `CUDA 11.X` `numpy 1.23.5` `Pillow 8.3.2`
 Install the dependent python libraries by
 
 ```
@@ -43,7 +43,7 @@ your dataset folder
 then running main.py to train and eval model in your dataset.
 
 ## Online Platform
-We also design a website to show the predict result in user-friendly page, click [HERE](39.106.16.168:8017) for experience.
+We also design a website to show the predict result in user-friendly page, click [HERE](https://drive.google.com/file/d/1GewYk_XMFtKCG-fpChKraEVO3ClROSZG/view?usp=sharing) for experience.
  
 ## Others
 ### The Method compared in our work
