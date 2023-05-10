@@ -43,11 +43,15 @@ your dataset folder
 then running main.py to train and eval model in your dataset.
 
 ## Online Platform
-We also design a website to show the predict result in user-friendly page, click [HERE](https://drive.google.com/file/d/1GewYk_XMFtKCG-fpChKraEVO3ClROSZG/view?usp=sharing) for experience.
+We also design a website to show the predict result in user-friendly page, click [HERE](39.106.16.168:8017) for experience.
  
 ## Others
 ### The Method compared in our work
-
+- [CNNMDA](https://pubmed.ncbi.nlm.nih.gov/30977780):A novel based on CNN-based framework for predicting the associations between miRNA and dieases.
+- [DEFLMDA](https://pubmed.ncbi.nlm.nih.gov/35325038/): A model employs a novel computational approach of random forest ensemble learning to predictmiRNA-disease associations, integrating autoencoders for low-dimensional feature representation.
+- [HGCNMDA](https://pubmed.ncbi.nlm.nih.gov/35776822/): A model incorporates a gene layer in constructing a heterogeneous network.The model refines thefeature of nodes into initial features and induction features and then learns miRNA and disease embeddings viaa multi-graph convolutional network model.
+- [LDAformer](https://pubmed.ncbi.nIm.nih.gov/36094081/):A model leverages topological feature extraction and Transformer encoder.Specifically, a pivotalprocess is designed for extracting potential multi-hop path feature from adjacent matrices during the topologicalinformation extraction stage.
+- [PADLMHOOI](https://pubmed.ncbi.nlm.nih.gov/31191710/):A model implements high-order orthogonal iterations to predict potential associations andevaluates predictive performance through global and local leave-one-out cross-validation.
 
 ### Contact
 If you have any questions, welcome to contact me at 2193612777@stu.xjtu.edu.cn!
