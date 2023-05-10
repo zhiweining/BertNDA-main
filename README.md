@@ -12,7 +12,7 @@ All the codes are tested in the following environment:
 `Linux(Ubuntu 18.04)``Python 3.8.16``PyTorch 1.10.1``numpy 1.23.5``Pillow 8.3.2`
 Install the dependent python libraries by
 
- pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ### Dataset Preparation
 The dataset deafult used in our code is `dataset1`, if you want to train in the dataset2, please download the dataset according to [README.MD](data/dataset2/README.MD) and preprare the preprocess data by the following step:
