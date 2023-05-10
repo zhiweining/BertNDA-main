@@ -1,13 +1,24 @@
+# BertNDA: a Model Based on Graph-Bert and Multi-scale Information Fusion for ncRNA-disease Association Prediction
+# @Institution: Department of Electronic Information, Xian Jiaotong University, China
+# @Author: Zhiwei Ning 
+# @Contact: 2193612777@stu.xjtu.edu.cn
+
+
 import hashlib
 import numpy as np
 import math
+import os
+
+current_path = os.path.abspath(__file__)
+father_path = os.path.abspath(
+    os.path.dirname(current_path) + os.path.sep + ".")
 
 class MethodWLNodeColoring:
-    def __init__(self,args,dim):
-        self.datasort=args.dataset_sort
+    def __init__(self,FLAGS,dim):
+        self.datasort=FLAGS.dataset_sort
         self.dim=dim
         self.data = None
-        self.max_iter = args.wl_max_iter
+        self.max_iter = FLAGS.wl_max_iter
         self.node_color_dict = {}
         self.node_neighbor_dict = {}
 
@@ -54,9 +65,8 @@ class MethodWLNodeColoring:
                 self.node_color_dict = new_color_dict
             iteration_count += 1
 
-
     def run(self):
-        link_list=np.load('./data/'+self.datasort+'/positive_ij.npy').tolist()
+        link_list=np.load(father_path+ '/data/'+self.datasort+'/positive_ij.npy').tolist()
         node_list=[i for i in range(self.dim)]
         self.setting_init(node_list, link_list)
         self.WL_recursion(node_list)
