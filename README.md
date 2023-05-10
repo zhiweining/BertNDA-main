@@ -43,7 +43,7 @@ your dataset folder
 then running main.py to train and eval model in your dataset.
 
 ## Online Platform
-We also design a website to show the predict result in user-friendly page, click [HERE](39.106.16.168:8017) for experience.
+We also design a website to show the predict result in user-friendly page, visit the url:`39.106.16.168:8017` for experience.
  
 ## Others
 ### The Method compared in our work
