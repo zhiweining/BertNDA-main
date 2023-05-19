@@ -4,7 +4,7 @@ BertNDA: A model predicting ncRNA and disease trinary associations based on Mult
 ![BertNDA](/imgs/Method.svg)
 
 ## Online Platform
-We also design a website to show the predict result in user-friendly way, which is available at: [BertNDA Platform](http://39.106.16.168:8017/).
+We also design a website to show the predict result in user-friendly way, which is available at: [BertNDA Online Platform](http://39.106.16.168:8017/).
 
 ## Introduction
 In this work, we propose a predictive framework, called BertNDA, which aims to predict association between disease miRNA and lncRNA. The framework employs Laplace transform of graph structure and WL(Weisfeiler-Lehman) absolute role coding to extract global information. Construct a connectionless subgraph to aggregate neighbor feature to identify local information. Moreover, an EMLP structure is adopted to obtain the multi-scale feature representation of node. Furtherly, nodes are encoded using Transformer-encoder structure, and prediction-layer outputs the final correlation between miRNA-lncRNA and diseases. A 5-fold cross-validation further demonstrate that BertNDA outperforms the state-of-the-art method in predicting assignment. Furthermore, an online prediction platform that embeds our prediction model is designed for users to experience. Overall, our model provides an efficient, accurate, and comprehensive tool for predicting ncRNA-disease associations.
