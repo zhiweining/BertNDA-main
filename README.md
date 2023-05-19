@@ -54,4 +54,4 @@ then running main.py to train and eval model in your dataset.
 - [PADLMHOOI](https://pubmed.ncbi.nlm.nih.gov/31191710/): A novel implements high-order orthogonal iterations to predict potential associations andevaluates predictive performance through global and local leave-one-out cross-validation.
 
 ### Contact
-If you have any questions, welcome to contact me at 2193612777@stu.xjtu.edu.cn!
+If you have any questions, welcome to contact us at 2193612777@stu.xjtu.edu.cn!
